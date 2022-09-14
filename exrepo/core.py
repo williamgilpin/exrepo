@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import random
 
 def random_walk(x0, nsteps=100):
