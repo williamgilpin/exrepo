@@ -28,3 +28,6 @@ class TestModels(unittest.TestCase):
         """
         traj = ornstein_uhlenbeck(0.1, 100)
         assert len(traj) == 100, "Generated trajectory has the wrong shape"
+
+if __name__ == "__main__":
+    unittest.main()
